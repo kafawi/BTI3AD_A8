@@ -20,7 +20,7 @@ public class TestBuam {
 //       5
 //        6
   @Test
-  public void testAEinfügen() {
+  public void testAEinfuegen() {
     IBaum abaum = new ArrBaum();
     System.out.println("  Arrbaum:");
     abaum.einfuegen(1);
@@ -87,7 +87,7 @@ public class TestBuam {
 
   
   @Test
-  public void testLEinfügen() {
+  public void testLEinfuegen() {
     IBaum baum = new LinBaum();
     System.out.println("  Arrbaum:");
     baum.einfuegen(1);
